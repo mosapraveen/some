@@ -84,6 +84,17 @@ header {
     border-radius: 5px;
 }
 
+.skill {
+    background-color: #ecf0f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+.skill:hover {
+    transform: scale(1.05);
+}
 /* Contact */
 #contact p {
     margin: 10px 0;
